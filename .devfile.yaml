@@ -6,7 +6,7 @@ components:
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryRequest: 256Mi
-      memoryLimit: 8Gi
+      memoryLimit: 4Gi
       cpuRequest: 100m
       cpuLimit: 2000m
       env:
